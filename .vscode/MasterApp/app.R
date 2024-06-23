@@ -20,7 +20,7 @@ ui <- navbarPage(
   
   tabPanel("Contrast Generator",
            fluidPage(
-             tags$iframe(src = "/ContrastGenerator",
+             tags$iframe(src = "https://github.com/MarcoMartinsGama/ContrastGenerator",
                          height = 800, width = "100%")
            )
   )
